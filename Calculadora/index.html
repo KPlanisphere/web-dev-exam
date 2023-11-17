@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="text-center">
+    <h1>Calculadora FCC</h1>
+  </header> 
+<div class="calculator">
+
+  <br><br>
+  <input type="text" class="form-control calc-display" id="calc-display" disabled>
+  <div class="row">
+    <button class="btn btn-secondary col button" onclick="appendNumber('7')">7</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('8')">8</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('9')">9</button>
+    <button class="btn btn-primary col button" onclick="setOperation('/')">/</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-secondary col button" onclick="appendNumber('4')">4</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('5')">5</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('6')">6</button>
+    <button class="btn btn-primary col button" onclick="setOperation('*')">×</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-secondary col button" onclick="appendNumber('1')">1</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('2')">2</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('3')">3</button>
+    <button class="btn btn-primary col button" onclick="setOperation('-')">-</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-secondary col button" onclick="appendNumber('0')">0</button>
+    <button class="btn btn-secondary col button" onclick="appendNumber('.')">.</button>
+    <button class="btn btn-secondary col button" onclick="calculate()">=</button>
+    
+    <button class="btn btn-primary col button" onclick="setOperation('+')">+</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-danger col button" onclick="clearDisplay()">BORRAR</button>
+  </div>
+  <br><br>
+</div>
+<footer class="row">
+  <div class="col-md-6">
+      <img src="https://comunicacion.buap.mx/sites/all/themes/plantilla_1/images/logo_buap.png" class="img-fluid" alt="buap">
+  </div>
+  <address class="text-right col-md-6">
+      <a href="mailto:jesus.huertakg@gmail.com">Jesus Huerta Aguilar</a>
+      - Desarrollo de Aplicaciones Web<br>
+      Benemérita Universidad Autónoma de Puebla<br>
+      Facultad de Ciencias de la Computación<br>
+  </address>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

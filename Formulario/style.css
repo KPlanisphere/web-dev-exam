@@ -1,0 +1,23 @@
+/* Estilos personalizados */
+.valido {
+    border: 2px solid green;
+}
+
+.invalido {
+    border: 2px solid red;
+}
+
+.oculto {
+    display: none;
+}
+header {
+    background-color: #003b5c;
+    color: white;
+    padding: 20px 0;
+}
+footer{
+    background-color: #003b5c;
+    color: #00b5e2;
+    padding: 10px;
+
+}
