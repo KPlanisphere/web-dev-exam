@@ -13,6 +13,10 @@ This repository contains two web development problems focused on form validation
 
 - **Description:**
   - This exercise includes a form with fields for username, email, and password. The form validates input using JavaScript and provides visual feedback using CSS classes for valid and invalid inputs. Submitted data is displayed on the same page if validation is successful.
+ 
+<p align= "center">
+    <img src="https://github.com/KPlanisphere/web-dev-exam/assets/60454942/1bdbe1b2-3972-41b7-855f-8d2c8cdf2d4d" style="width: 70%; height: auto;">
+</p>
 
 - **Instructions:**
   1. Perform form validation to ensure that the fields (Username, Email, and Password) are not left blank.
@@ -76,6 +80,11 @@ This repository contains two web development problems focused on form validation
 -   **Description:**
     
     -   This exercise includes a simple calculator application that performs basic arithmetic operations. The calculator interface is built using HTML and styled with CSS. JavaScript functions handle the operations and display the results.
+ 
+<p align= "center">
+    <img src="https://github.com/KPlanisphere/web-dev-exam/assets/60454942/bed0d612-e3e8-4aba-8058-a167b7ca6a8e" style="width: 30%; height: auto;">
+</p>
+
 -   **Instructions:**
     
     1.  Create a calculator that performs addition, subtraction, multiplication, and division.
